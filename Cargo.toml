@@ -1,0 +1,12 @@
+[package]
+name = "mol_3d"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.8.1"
+dotenv = "0.15.0"
+d_vector = {path = "../mol2/d_vector"}
+mol_job = {path = "../mol2/mol_job"}
