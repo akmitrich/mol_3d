@@ -1,12 +1,11 @@
 [package]
-name = "mol_3d"
+name = "d_vector"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.8.1"
-dotenv = "0.15.0"
-d_vector = {path = "d_vector"}
-mol_job = {path = "mol_job"}
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
